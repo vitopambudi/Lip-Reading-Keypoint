@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.ipynb
 
 # MENGABAIKAN DATASET UTAMA (SANGAT PENTING UNTUK HAKI)
 # Pastikan dataset rahasiamu ada di folder 'data' atau nama lain yang sesuai
