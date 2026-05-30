@@ -1,0 +1,24 @@
+# Mengabaikan environment dan cache Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# MENGABAIKAN DATASET UTAMA (SANGAT PENTING UNTUK HAKI)
+# Pastikan dataset rahasiamu ada di folder 'data' atau nama lain yang sesuai
+data/
+dataset/
+*.npy
+
+# Pengecualian: Izinkan folder sampel data untuk publik
+!sample_data/
+!sample_data/**/*.npy
+
+# Mengabaikan bobot model (Ukurannya besar dan bersifat rahasia)
+models/*.h5
+models/*.weights.h5
+*.keras
+
+# Mengabaikan sistem operasi
+.DS_Store
+Thumbs.db

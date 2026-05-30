@@ -1,0 +1,13 @@
+# --- Core Deep Learning & Matrices ---
+tensorflow>=2.16.1
+numpy>=1.26.0
+
+# --- Preprocessing & Evaluation Metric ---
+scikit-learn>=1.4.0
+
+# --- Data Visualization & Report ---
+matplotlib>=3.8.0
+pandas>=2.2.0
+
+# --- Optional ---
+seaborn>=0.13.0
