@@ -5,6 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb
 
+
 # MENGABAIKAN DATASET UTAMA (SANGAT PENTING UNTUK HAKI)
 # Pastikan dataset rahasiamu ada di folder 'data' atau nama lain yang sesuai
 data/
@@ -23,3 +24,6 @@ models/*.weights.h5
 # Mengabaikan sistem operasi
 .DS_Store
 Thumbs.db
+
+# Mengabaikan model rahasia
+models_non_public.py
